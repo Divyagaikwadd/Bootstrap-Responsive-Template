@@ -1,0 +1,227 @@
+                       /*........................heading css..................*/
+
+#header{
+    color: white;
+    background-color: #fb5746;
+
+}
+#menu{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    font-size: 2rem;
+}
+#menu li{
+    display: inline-block;
+
+}
+#menu li a{
+    color: white;
+    display: block;
+    padding: 15px 10px;
+    text-decoration: none;
+}
+#menu li a:hover{
+    background-color: #c0392b;
+}
+#banner{
+    background: url('img1.jpg') no-repeat 0 0 /*do not want to repeat image and x and y axis is 0*/;
+    background-size: cover;
+}
+.title h1{
+    color: rgba(255, 255, 255, 0.794);
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+}
+.title p{
+    color: rgb(13, 10, 10);
+}
+                                    /*.................middle css...................*/
+
+.service-box{
+    text-align: center;
+}        
+.service-box i.fa{
+    color: #fb5746;
+    font-size: 70px;
+    margin-bottom: 15px;
+
+}    
+
+.section{
+    padding-top: 70px;
+    padding-top: 70px;
+}
+.section .section-head h2{
+    color: black;
+    text-align: center;
+    margin-bottom: 40px;
+   
+    
+    
+}
+.section .section-head h2::after{
+    background: #fb5746;
+    content: " ";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 20px auto;
+  
+}
+.service-box{
+    padding-bottom: 78px;
+}
+/* .....................................................testimonial......................................*/
+
+
+#testimonials{
+    color: white;
+    background: linear-gradient(rgba(52, 73, 94, 0.75),rgba(52, 73, 94, 0.75)),url('img4.jpg') no-repeat 0 0;
+    background-size: cover;
+    padding: 50px 0;
+    position: relative;
+    
+
+}
+/*--------------------------------------------------News-------------------------------------------------*/
+#news .col-lg-3 {
+    flex: 0 0 auto;
+    width: 25%;
+    padding-bottom: 70px;
+  }
+
+.news-post img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.news-post-h3{
+    font-size: 1.35rem;
+}
+.news-post h3 a{
+    color: #e74c3c;
+    text-decoration: none;
+}
+.post-date{
+    font-size: 13px;
+    margin-bottom: 2px;
+    
+}
+.post-date:before{
+    content: "\f073";
+    font-family:FontAwesome;
+    padding-right: 7px;
+}
+a.readmore{
+    font-size:14px;
+    color: #e74c3c;
+    text-decoration: none;
+}
+/*..........................................footer-sidebar...............................................*/
+#footer-sidebar{
+    color: white;
+    background-color: #34495e;
+    padding: 49px 0;
+}
+
+.latest-news ul{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#footer-sidebar h4{
+font-size: 1.5rem;
+padding-left: 66px;
+padding-bottom: 17px;
+
+}
+#footer-sidebar h4::after{
+    content: "";
+    background: white;
+    display: block;
+    width: 80px;
+    height: 2px;
+    margin: 5px 25px;
+}
+/*................... h........................,,.......Footer....................................................................*/
+
+#Footer{
+    color: white;
+    background-color: #2c3e50;
+    padding: 15px 0;
+}
+#Footer i{
+    
+    float: right;
+    padding: 6px;
+}
+
+
+@media (max-width:992px) {
+    .news-post{
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:768px){
+    #logo{
+        text-align: center;
+        margin: 10px 0;
+    }
+    #menu{
+        text-align: center;
+        padding-right: 39px;
+    }
+    .testimonial{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .footer-widget{
+        margin-bottom:20px;
+    }
+    #footer{
+        text-align: center;
+    }
+    .service-box{
+        margin-bottom: 30px;
+    }
+    .news-post{
+        margin-bottom: 30px;
+    }
+    .section{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .service-box{
+        padding-bottom: 40px;
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
